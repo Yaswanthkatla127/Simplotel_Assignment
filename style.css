@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff7171;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0 0 0 100px;
+}
+
+nav ul li {
+    margin: 0 30px;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+
+nav ul li a img {
+    display: inline-block;
+    height: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+
+.left {
+    flex: 1;
+    padding: 100px 30 100px 70px;
+    background-image: linear-gradient(140deg,#fff7ad,#ffd4cf);
+}
+
+.left h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 100px 50px 20px 75px;
+}
+
+.left p {
+    padding: 50px 80px 50px 80px;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.right {
+    flex: 1;
+    background: url("pexels-robin-stickel-70497.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #4A4A4A;
+}
+
+p {
+    color: #4A4A4A;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    margin:0 0 100px 100px;
+    padding: 15px 100px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0;
+    justify-content: space-evenly;
+    background-image: linear-gradient(140deg,#fff6ae,#ffacf6);
+}
+.image-gallery {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.img_left{
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.img_left img{
+    height:200px;
+    width:280px;
+    padding: 10px;
+}
+.img_right{
+    display: inline-flex;
+    flex-direction: column;
+}
+.img_right img{
+    height:400px;
+    width: 340px;
+    padding: 10px;
+}
+.content_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: baseline
+}
+.content_block{
+    background-color: #ff7171;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+.content_block p img {
+    vertical-align: middle;
+}
+.header button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #ff7171;
+}
